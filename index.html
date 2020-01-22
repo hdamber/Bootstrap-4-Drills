@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4 Drills</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1>First Bootstrap Project</h1>
+        </div>
+
+
+        <!-- some text -->
+        <div class="row">
+            <div class="col-4">One</div>
+            <div class="col-4">Two</div>
+            <div class="col-4">Three</div>
+        </div>
+
+
+        <!-- cards -->
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">TJ</h3>
+                        <p class="card-text">TJ is a goofy guy who loves playing video games. His current favorite game
+                            in Stardew Valley. He loves vietnamese food, mainly pho. He's easy to talk to and a great listener. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Brittany</h3>
+                        <p class="card-text">Brittany is one of my two favorite coworkers I had. She liked to make fun
+                            of the one time I ate flowers on ice cream on my trip to New York. She made my work days
+                            much better.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Rachel</h3>
+                        <p class="card-text">Rachel is the other one of my two favorite coworkers. She was very
+                            enjoyable to work with and great to talk to or vent to. She is very nice and friendly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Wendy</h3>
+                        <p class="card-text">Even though she is my mother, I consider her a good friend as well. She has
+                            been there whenever I have needed her and vice versa. I don't know where I would be without
+                            her.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Mercedes</h3>
+                        <p class="card-text">My sister Mercedes is someone I could consider a good friend. We've lived
+                            and laughed together the longest and been through thick and thin.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Holli</h3>
+                        <p class="card-text">She has always been mature and is always super easy to talk to. I could
+                            talk to her about anything and I know she wouldn't judge me. She is fun to go out with a hang out around.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- form -->
+    <div class="row border border-primary p-3">
+        <div class="col-12">
+
+        </div>
+
+        <form>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Dogs
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                <label class="form-check-label" for="defaultCheck2">
+                    Cats
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                    checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    Cheese Pizza
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    Hawaiian Pizza
+                </label>
+            </div>
+            <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">
+                    Supreme Pizza
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Form</button>
+
+        </form>
+
+   </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
